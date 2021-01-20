@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "leak": "tsc && node --inspect dist/leak.js"
+  },
+  "dependencies": {
+    "rxjs": "^6.5.4",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  }
+}
